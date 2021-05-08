@@ -51,6 +51,7 @@ ul{
     list-style: none;
     border:2px solid white;
     margin-bottom: 20px;
+    font-size: 0;   
        
 }
 
@@ -69,13 +70,47 @@ ul>li{
 
 /* ===================================== */
 
-ul:hover{
-    opacity:0.7;       
+ul:hover > *{
+    opacity:0.2;       
 }
 
-ul > li:hover{
+.item1:hover{
     opacity: 1;
-    color:black;
+    
+}
+
+.item2:hover{
+    opacity: 1;
+}    
+
+.item3:hover{
+    opacity: 1;
+}
+
+.item4:hover{
+    opacity: 1;
+}
+
+.item5:hover{
+    opacity: 1;
+}
+.item6:hover{
+    opacity: 1;
+}
+.item7:hover{
+    opacity: 1;
+}
+.item8:hover{
+    opacity: 1;
+}
+.item9:hover{
+    opacity: 1;
+}
+.item10:hover{
+    opacity: 1;
+}
+.item11:hover{
+    opacity: 1;
 }
 
 /* ===================================== */
